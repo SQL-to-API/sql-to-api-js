@@ -6,7 +6,7 @@ SQL is converted to API call in client side. sql-to-api-js converts SQL to JavaS
 
 `SELECT * FROM users` => `fetch('/api/users')`
 
-`SELECT * FROM users WHERE name=Jack` => `fetch('/api/users&name=Jack')`
+`SELECT * FROM users WHERE name=Jack` => `fetch('/api/users?name=Jack')`
 
-`SELECT * FROM users WHERE name=Jack ORDER BY age` => `fetch('/api/users&name=Jack').sort((userA,userB) => userA.age-userB.age)`
+`SELECT * FROM users WHERE name=Jack ORDER BY age` => `fetch('/api/users?name=Jack').sort((userA,userB) => userA.age-userB.age)`
 
