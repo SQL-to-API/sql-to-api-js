@@ -1,8 +1,6 @@
-# sql-to-api
-
-SQL to API idea is to set convention that enables using SQL to query API for data. 
-
 # sql-to-api-js
+
+[sql-to-api project](https://github.com/SQL-to-API/sql-to-api)
 
 SQL is converted to API call in client side. sql-to-api-js converts SQL to JavaScript and fetch complete query.
 
